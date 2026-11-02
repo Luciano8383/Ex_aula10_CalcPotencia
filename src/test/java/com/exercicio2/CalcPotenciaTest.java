@@ -8,7 +8,7 @@ public class CalcPotenciaTest {
     @Test
     public void testarPotencia() {
         CalcPotencia calc = new CalcPotencia();
-        double resultado = calc.calcularPotencia(127, 20);
+        double resultado = calc.calcularPotencia(127, 10);
 
         assertEquals(1270, resultado, 0.01);
     }
